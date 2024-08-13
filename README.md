@@ -1,19 +1,35 @@
 # Estructura del Proyecto
 
-## .env
-Archivo de configuración de variables de entorno.
+
 
 ## .env.template
 Plantilla para el archivo de configuración de variables de entorno.
 
-## .gitignore
-Archivo para especificar qué archivos y directorios deben ser ignorados por Git.
+
 
 ## controllers/
-Contiene los controladores que manejan la lógica de negocio de las rutas.
 
-- **auth.js**: Controlador para la autenticación de usuarios. Contiene funciones como `crearUsuario`, `loginUsuario` y `revalidarToken`.
-- **events.js**: Controlador para la gestión de eventos. Contiene funciones como `getEventos`, `crearEvento`, `actualizarEvento` y `eliminarEvento`.
+## controllers/auth.js
+To generate an h2 heading in markdown, you can use the following syntax:
+
+```
+## Heading 2
+```
+
+This will create a second-level heading in your markdown document.
+Este archivo contiene los controladores relacionados con la autenticación de usuarios. Las funciones principales son:
+
+- `crearUsuario`: Crea un nuevo usuario en la base de datos.
+- `loginUsuario`: Autentica a un usuario existente y genera un token JWT.
+- `revalidarToken`: Revalida el token JWT de un usuario autenticado.
+
+## controllers/events.js
+Este archivo contiene los controladores relacionados con la gestión de eventos. Las funciones principales son:
+
+getEventos: Obtiene todos los eventos de la base de datos.
+crearEvento: Crea un nuevo evento en la base de datos.
+actualizarEvento: Actualiza un evento existente en la base de datos.
+eliminarEvento: Elimina un evento de la base de datos.
 
 ## database/
 Contiene la configuración de la base de datos.
