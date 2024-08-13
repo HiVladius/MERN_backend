@@ -1,5 +1,8 @@
 # Estructura del Proyecto
 
+```
+![Proyect Vite](https://vitejs.dev/logo-with-shadow.png)
+```
 
 
 ## .env.template
