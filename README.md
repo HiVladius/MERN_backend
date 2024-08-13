@@ -12,9 +12,7 @@ Plantilla para el archivo de configuración de variables de entorno.
 ## controllers/auth.js
 To generate an h2 heading in markdown, you can use the following syntax:
 
-```
-## Heading 2
-```
+
 
 This will create a second-level heading in your markdown document.
 Este archivo contiene los controladores relacionados con la autenticación de usuarios. Las funciones principales son:
@@ -26,10 +24,10 @@ Este archivo contiene los controladores relacionados con la autenticación de us
 ## controllers/events.js
 Este archivo contiene los controladores relacionados con la gestión de eventos. Las funciones principales son:
 
-getEventos: Obtiene todos los eventos de la base de datos.
-crearEvento: Crea un nuevo evento en la base de datos.
-actualizarEvento: Actualiza un evento existente en la base de datos.
-eliminarEvento: Elimina un evento de la base de datos.
+- `getEventos`: Obtiene todos los eventos de la base de datos.
+- `crearEvento`: Crea un nuevo evento en la base de datos.
+- `actualizarEvento`: Actualiza un evento existente en la base de datos.
+- `eliminarEvento`: Elimina un evento de la base de datos.
 
 ## database/
 Contiene la configuración de la base de datos.
