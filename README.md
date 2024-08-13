@@ -29,16 +29,21 @@ Este archivo contiene los controladores relacionados con la gestión de eventos.
 - `actualizarEvento`: Actualiza un evento existente en la base de datos.
 - `eliminarEvento`: Elimina un evento de la base de datos.
 
-### database/
+## database/
 Contiene la configuración de la base de datos.
 
 - **config.js**: Archivo de configuración para la conexión a la base de datos.
 
-## helpers/
-Contiene funciones de ayuda que son utilizadas en diferentes partes del proyecto.
+## helpers/isDate.js
+Este archivo contiene una función para validar si una fecha es válida utilizando la librería moment.
 
-- **isDate.js**: Función para validar si una fecha es válida.
-- **jwt.js**: Funciones para la generación y verificación de JSON Web Tokens (JWT).
+### Funciones principales:
+
+- `isDate(value):` Verifica si el valor proporcionado es una fecha válida. Retorna true si la fecha es válida, de lo contrario, retorna false.
+- `helpers/jwt.js:` Este archivo contiene funciones para la generación y verificación de JSON Web Tokens (JWT) utilizando la librería jsonwebtoken.
+
+### Funciones principales:
+- `generarJWT(uid, name):` Genera un token JWT con el uid y name proporcionados. Retorna una promesa que resuelve con el token generado o rechaza con un error si no se pudo generar el token.
 
 ## middlewares/
 Contiene middlewares que son utilizados para validar y procesar las solicitudes.
