@@ -77,3 +77,44 @@ Archivo principal del servidor. Configura y arranca el servidor de Express, defi
 
 ## package.json
 Archivo de configuración de npm que contiene las dependencias y scripts del proyecto.
+
+
+## Clonar y usar el proyecto
+
+Para clonar y usar este proyecto, sigue los siguientes pasos:
+
+1. Abre una terminal y navega hasta la ubicación donde deseas clonar el proyecto.
+
+2. Ejecuta el siguiente comando para clonar el repositorio:
+
+    ```bash
+    git clone https://github.com/tu-usuario/tu-repositorio.git
+    ```
+
+    Asegúrate de reemplazar `tu-usuario` y `tu-repositorio` con tu nombre de usuario y nombre de repositorio en GitHub.
+
+3. Navega hasta el directorio del proyecto clonado:
+
+    ```bash
+    cd tu-repositorio
+    ```
+
+4. Instala las dependencias del proyecto ejecutando el siguiente comando:
+
+    ```bash
+    npm install
+    ```
+
+    Esto instalará todas las dependencias necesarias que se encuentran en el archivo `package.json`.
+
+5. Crea un archivo `.env` en la raíz del proyecto y configura las variables de entorno necesarias. Puedes utilizar el archivo `.env.template` como referencia.
+
+6. Inicia el servidor ejecutando el siguiente comando:
+
+    ```bash
+    npm start
+    ```
+
+    Esto iniciará el servidor de Express y podrás acceder a la aplicación en `http://localhost:3000`.
+
+¡Listo! Ahora puedes comenzar a utilizar el proyecto clonado en tu entorno local.
